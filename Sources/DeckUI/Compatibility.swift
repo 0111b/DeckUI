@@ -10,11 +10,13 @@ import AppKit
 public typealias PlatformImage = NSImage
 public typealias PlatformView = NSView
 public typealias PlatformViewRepresentable = NSViewRepresentable
+public typealias PlatformHostingController = NSHostingController
 #elseif canImport(UIKit)
 import UIKit
 public typealias PlatformImage = UIImage
 public typealias PlatformView = UIView
 public typealias PlatformViewRepresentable = UIViewRepresentable
+public typealias PlatformHostingController = UIHostingController
 #endif
 
 import SwiftUI

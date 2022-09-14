@@ -10,7 +10,7 @@ import DeckUI
 
 struct ContentView: View {
     var body: some View {
-        Presenter(deck: self.deck, showCamera: true)
+        Presenter(deck: self.deck, showCamera: true)            
     }
 }
 
